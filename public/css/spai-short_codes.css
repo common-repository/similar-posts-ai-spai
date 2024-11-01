@@ -1,0 +1,36 @@
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.spai-hidden {
+    display: none;
+}
+
+.overflow-hidden {
+    overflow-y: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.spai-row {
+    white-space: nowrap;
+}
+.spai-col-2 {
+    white-space: normal;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+.spai-row .spai-col-2:first-child {
+    margin-right: 4%;
+}

@@ -1,0 +1,109 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#wpcontent {
+    padding-left: 0;
+}
+
+.spai-white-block {
+    background-color: white;
+    box-shadow: 0 1px 0 rgb(200 215 225 / 50%), 0 1px 2px #e9eff3;
+}
+.spai-head {
+    padding: 20px 0 20px 20px;
+}
+
+.spai-api-key {
+    max-width: 525px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-item {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    cursor: default;
+}
+
+.nav-tabs .nav-link:focus {
+    box-shadow: none;
+}
+.spai-input_label {
+    display: inline-block;
+    width: 20%;
+}
+.spai-input_division {
+    display: inline-block;
+    width: 60%;
+}
+
+.toggle_api_key {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.spai-settings-content {
+    position: relative;
+}
+
+.spai-widget-preview {
+    display:none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 800px;
+}
+
+.spai-widget-preview-heading {
+
+}
+
+@media only screen and (min-width : 1600px) {
+    .spai-widget-preview {
+        display:block;
+    }
+}
